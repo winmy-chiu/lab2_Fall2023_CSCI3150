@@ -1,0 +1,83 @@
+/*Hide only visually, but have it available for screen readers: */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+body{
+    /* background-color: #FFD1CA; */
+    background-color: #D9CDA5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*Paragraph*/
+p {
+    /* color: #352535; */
+    /* color:#5A4DA1; */
+    /* color:#3A506B; */
+    color: black;
+    line-height: 1.8em;
+}
+
+/*Whole page*/
+.container{
+    max-width: 960px;  /*The biggest, but can shrink*/
+    margin: 0 auto;  /*top and bottom is 0, right left auto */
+}
+
+/*Global*/
+h1, 
+h2, 
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/*h1 only*/
+h1 {
+    font-size: 1.7em;
+}
+/*h2 only*/
+h2 {
+    font-size: 1.3em;
+}
+/*h3 only*/
+h3 {
+    font-size: 1.0em;
+}
+
+.sr-only{
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* nav ul li {
+    list-style: none;
+} */
+
+nav ul li a {
+    /* text-decoration:none; Take out underline */
+    font-size: 1.2em; /* Make the text bigger*/
+}
+
+nav ul li a:link {
+    /* color: #3A506B;   */
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+    /* background: #3A506B; */
+    color: black;
+}
+nav ul li:active {
+    color:black
+}
+.no-bullet {
+    list-style: none;
+}
