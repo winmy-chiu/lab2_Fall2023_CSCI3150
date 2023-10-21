@@ -67,11 +67,12 @@ nav ul li a {
 }
 
 nav ul li a:link {
-    color: rgb(151, 165, 242);  /*Before hover through*/
+    /* color: rgb(151, 165, 242);  Before hover through */
+    color: black;
 }
 
 nav ul li a:visited {
-    color:white;
+    color:black;
 }
 
 nav ul li a:hover {
@@ -79,7 +80,7 @@ nav ul li a:hover {
     background: white;
 }
 nav ul li:active {
-    color:yellow;
+    color:black;
 }
 /* img {
     width: 400px;
