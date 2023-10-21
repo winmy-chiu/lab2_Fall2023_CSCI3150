@@ -56,30 +56,30 @@ h3 {
     width: 1px;
 }
 
+
 /* nav ul li {
     list-style: none;
 } */
 
 nav ul li a {
-    /* text-decoration:none; Take out underline */
-    font-size: 1.2em; /* Make the text bigger*/
+    text-decoration: none; /* Take out underline*/
+    font-size: 1.8em; /* Make the text bigger*/
 }
 
 nav ul li a:link {
-    /* color: #3A506B;   */
-    color: black;
+    color: rgb(151, 165, 242);  /*Before hover through*/
+}
+
+nav ul li a:visited {
+    color:white;
 }
 
 nav ul li a:hover {
-    color: white;
-    /* background: #3A506B; */
     color: black;
+    background: white;
 }
 nav ul li:active {
-    color:black
-}
-.no-bullet {
-    list-style: none;
+    color:yellow;
 }
 /* img {
     width: 400px;
