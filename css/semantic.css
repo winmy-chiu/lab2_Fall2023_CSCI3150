@@ -56,6 +56,11 @@ h3 {
     width: 1px;
 }
 
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
 
 /* nav ul li {
     list-style: none;
